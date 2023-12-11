@@ -1,0 +1,20 @@
+== Chapter 8: MicroProfile OpenTelemetry
+This chapter focuses on distributed tracing and observability in microservices architectures. 
+It covers various topics about how to gain insights into the flow of requests and monitor the performance of services.
+
+=== Topics to be covered:
+- Introduction to MicroProfile OpenTelemetry
+- Trancing Concepts (Spans, Traces and Context Propagation)
+- Instrumenting OpenTelemetry
+- Setting up Tracing Providers
+- Context Propagation and Correlation
+- Analyzing Traces
+- Security Considerations for Tracing
+
+=== Introduction to MicroProfile OpenTelemetry
+=== Trancing Concepts (Spans, Traces and Context Propagation)
+=== Instrumenting OpenTelemetry
+=== Setting up Tracing Providers
+=== Context Propagation and Correlation
+=== Analyzing Traces
+=== Security Considerations for Tracing
