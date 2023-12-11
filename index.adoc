@@ -1,0 +1,57 @@
+== Legal
+
+This documentation and the accompanying materials are made available under the terms of the Eclipse Public License v. 2.0,
+which is available at https://www.eclipse.org/legal/epl-2.0.
+
+SPDX-License-Identifier: EPL-2.0
+
+Oracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective owners.
+
+=== Who is this tutorial for 
+Software professionals at all levels including beginners with less experience, senior developers, engineering managers and architects. 
+
+=== What will be covered 
+It will first start with an overview of the MicroProfile project, followed by detailed sections on each specification with thoroughly tested and updated code samples.
+
+=== How will it be structured
+It will be designed with modularity in mind, allowing for easy updates to incorporate additional specifications in the future.
+
+== Hands-on project 
+An online pet store or an ecommerce application example would be used to demonstrate development of microservices using the MicroProfile APIs to make this tutorial more engaging and relevant for real-world projects.
+
+== About this Tutorial
+This tutorial explains how to use the features of the MicroProfile platform to build cloud-native microservices.
+
+== Prerequisites
+Microprofile use the Java Platform, and are usually written in the Java programming language. 
+All the examples in this tutorial are written in Java. 
+If you're new to Java, spend some time getting up to speed on the language and platform;
+a good place to start is https://dev.java/learn/[dev.java/learn].
+
+Each topic in this tutorial provides some background information, 
+but in general,
+we assume you have a basic understanding of the technologies each MicroProfile module works with.
+For example, in the Jakarta Persistence chapter,
+we assume you have a basic understanding of RESTful Web Services.
+
+== Conventions
+[width="99%",cols="20%,38%,37%"]
+|===
+|Convention |Meaning |Example
+
+|*Boldface* |Boldface type indicates a term defined in text or graphical user interface elements associated with an action. |A *cache* is a copy stored locally.
+
+From the *File* menu, choose *Open Project*.
+
+|`Monospace` |Monospace type indicates the names of files and directories, commands within a paragraph, URLs, code in examples, text that appears on the screen, or text that you enter. |Edit your `.login` file.
+
+Use `ls -a` to list all files.
+
+`_machine_name_% you have mail.`
+
+|_Italic_ |Italic type indicates book titles, emphasis, or placeholder variables for which you supply particular values. |Read Chapter 6 in the _User's Guide_.
+
+Do _not_ save the file.
+
+The command to remove a file is `rm _filename_`.
+|===
