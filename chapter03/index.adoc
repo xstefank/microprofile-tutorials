@@ -1,0 +1,11 @@
+== Chapter 3: REST Client
+This chapter provides a comprehensive understanding of the MicroProfile REST Client specification. It covers the basics of setting up and configuring the REST client, creating interfaces, handling requests and responses, and implementing error handling.
+
+=== Topics to be covered:
+- Overview of the REST Client Specification
+- Setting up dependencies for REST Client
+- Creating REST Client Interface
+- Handling Requests and Responses
+- Configuring Headers, Query and Path Parameters
+- Working with various Data formats like JSON or XML
+- Error Handling
