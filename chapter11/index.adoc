@@ -1,0 +1,10 @@
+== Chapter 11: Jakarta EE 10 Core Profile
+This chapter delves into the Jakarta EE 10 Core Profile, which forms the foundational framework for building enterprise-grade applications in the Java ecosystem. It covers the essential components and features provided by Jakarta EE.
+
+=== Topics to be covered:
+- Introduction to Jakarta EE 10 Core Profile
+- Key Specifications in Core Profile (Jakarta Annotations, CDI, Interceptors,
+- JSON-P, JSON-B, Restful Web Services)
+- Managing Component Dependencies
+- Handling HTTP Methods and Resources
+- Best Practices for Building Robust and Scalable Applications
