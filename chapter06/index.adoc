@@ -1,0 +1,11 @@
+== Chapter 6: MicroProfile Health Checking
+This chapter provides an in-depth exploration of MicroProfile Health Checks, a critical component for ensuring the reliability and availability of microservices. It covers types of health checks, standard health indicators provided by MicroProfile.
+
+=== Topics to be covered:
+- Introduction to MicroProfile Health Checks
+- Types of Health Checks
+- Standard Health Checks
+- Implementing and Exposing Health Checks
+- Logging and Reporting Health Checks
+- Best Practices for Effective Health Checks
+
