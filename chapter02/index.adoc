@@ -1,0 +1,12 @@
+== Chapter 2: Getting Started
+This chapter will guide you through the initial steps of setting up your development environment and creating a simple MicroProfile-based microservices application.
+It covers setting up your development environment, creating a simple microservice, deploying it, and interacting with it.
+
+=== Topics to be covered:
+- Development Environment Setup
+- Configuring Build Tools
+- Initializing a new MicroProfile Project
+- Choosing right modules for your application
+- Building a Simple Microservice
+- Deployment the microservices
+- Testing your microservices
