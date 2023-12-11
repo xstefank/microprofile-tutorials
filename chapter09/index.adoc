@@ -1,0 +1,16 @@
+== Chapter 9: MicroProfile OpenAPI
+
+This chapter focuses on MicroProfile OpenAPI, a powerful tool for defining and documenting APIs in a microservices architecture. 
+It enables developers to create clear and standardized API specifications.
+
+=== Topics to be covered:
+- Introduction to MicroProfile OpenAPI
+- API Specification using MicroProfile Open API
+- Generating API Documentation
+- Managing API Versions and Categories
+- Documenting Authentication and Authorization Requirements
+- Enabling Interactive API Testing and Exploration using Swagger UI
+- Describing Security Schemes and Protocols
+- Adding Tags for Improved Documentation Navigation
+- Integration with API Gateways and Tools
+- Best Practices for Effective API Documentation
