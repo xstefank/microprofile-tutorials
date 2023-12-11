@@ -1,0 +1,22 @@
+== Chapter 7: MicroProfile Fault Tolerance
+In this section, readers will learn about how to apply MicroProfile Fault Tolerance to their applications, 
+demonstrating how to implement strategies like retries, circuit breakers, timeouts, and fallbacks to enhance the resilience and reliability of services.
+
+=== Topics to be covered:
+- Introduction to Fault Tolerance
+- Strategies (Retry, Circuit Breaker, Timeout, Fallback)
+- Implementation Retry Policies and Configuration
+- Avoiding Cascading Failures
+- Configuring Circuit Breaker
+- Setting Timeouts
+- Implementing Fallback Logic
+- Isolating Resources for Fault Tolerance
+
+=== Introduction to Fault Tolerance
+=== Strategies (Retry, Circuit Breaker, Timeout, Fallback)
+=== Implementation Retry Policies and Configuration
+=== Avoiding Cascading Failures
+=== Configuring Circuit Breaker
+=== Setting Timeouts
+=== Implementing Fallback Logic
+=== Isolating Resources for Fault Tolerance
