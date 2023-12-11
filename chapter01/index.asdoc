@@ -1,0 +1,11 @@
+== Chapter 1: Introduction to MicroProfile
+This chapter will provide a comprehensive overview of the MicroProfile platform to ensure a deep understanding of its architecture, 
+specifications, and key features.It provides a solid foundation for understanding the MicroProfile platform, 
+its purpose, and its place in the broader context of Java enterprise development. It covers its benefits, 
+its relationship with Jakarta EE, and how it supports cloud-native application development.
+=== Topics to be covered:
+- What is MicroProfile (Brief introduction)
+- Need for MicroProfile (How it addresses the needs for microservices development)
+- Benefits of MicroProfile (This section would focus on advantages of using MicroProfile, vendor-neutrality and standardization)
+- Relationship with Jakarta EE specification (How MicroProfile complements Jakarta EE, and focuses on integration and interoperability.
+- Cloud-Native Development with MicroProfile (characteristics of cloud-native application, how microprofile facilitates cloud-native development) 
