@@ -1,0 +1,14 @@
+== Chapter 5: MicroProfile Metrics
+This chapter provides a deep dive into MicroProfile Metrics, a specification for monitoring microservices. 
+It covers metric types, standard metrics provided by MicroProfile, instrumenting microservices, exposing endpoints, interpreting metric data, and integrating with monitoring solutions.
+
+=== Topics to be covered:
+- Introduction to MicroProfile Metrics
+- Standard Metrics
+- Metric Types
+- Instrumenting Microservices with Metrics
+- Exposing Metrics
+- Integrating with Monitoring Solutions (e.g. Grafana or Prometheus)
+- Aggregation and Reporting
+- Setting Thresholds for Metric Values
+- Configuring Alerts
