@@ -1,0 +1,16 @@
+== Chapter 10: JWT Authentication
+
+This chapter focuses on JSON Web Token (JWT) Authentication in the context of MicroProfile, providing a secure and efficient method for authenticating and authorizing users in microservices architectures. It covers JWT basics, user authentication, claims, scopes, token expiration, role-based access control, endpoint security, integration with identity providers, token revocation, and best practices.
+
+=== Topics to be covered:
+- Introduction to JWT Authentication
+- Understanding JSON Web Tokens
+- Request Flow
+- Obtaining and Validating JWT Tokens
+- Defining User Claims and Scopes in JWT
+- Role-Based Access Control (RBAC)
+- Setting Token Expiry Times for Security
+- Implementing Token Refresh for Long-Lived Sessions
+- Integration with Identity Providers (e.g. OAuth, OpenID)
+- Security Considerations
+- Best Practices for JWT Authentication
