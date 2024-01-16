@@ -20,6 +20,12 @@ The contents of this repo are built by
 the [microprofile-tutorial-playbook repository](https://github.com/ttelang/microprofile-documentation).
 See that repo for details.
 
+## Related Repositories
+
+* [ttelang/jakartaee-examples](https://github.com/ttelang/microprofile-examples) - Contains examples used in the tutorial (and additional examples)
+* [ttelang/jakartaee-documentation](https://github.com/ttelang/microprofile-documentation) - builds documentation site
+* [ttelang/jakartaee-documentation-ui](https://github.com/ttelang/microprofile-documentation-ui) - HTML and CSS assets used for the documentation site look and feel.
+
 ## Contributing
 
 This project is open for contributions, and your help is greatly appreciated. 
