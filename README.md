@@ -14,5 +14,20 @@ If you modify a source image,
 please help us out and rename it to match the output image.
 
 Guidelines for generating new images can be found in the [Contributing guide](CONTRIBUTING.md).
+## Building
+
+The contents of this repo are built by
+the [microprofile-tutorial-playbook repository](https://github.com/ttelang/microprofile-documentation).
+See that repo for details.
+
+## Contributing
+
+This project is open for contributions, and your help is greatly appreciated. 
+The easiest way to contribute is by opening an issue in this project that contains feedback and review comments. 
+You can also create PRs directly while viewing the published documentation.
+
+If you'd like to propose changes or additions to the content and/or images,
+please read the [Style guide](STYLE_GUIDE.adoc) and  
+[Contributing guide](CONTRIBUTING.md) for more information.
 
 > This section is currently a draft and is subject to change
