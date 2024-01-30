@@ -13,9 +13,9 @@ This section will provide a comprehensive overview of the MicroProfile platform 
 
 === What is MicroProifle
 
-MicroProfile is an open-source specification specifically designed for developing microservices using enterprise Java technologies. It addresses the challenges and complexities of building modern, scalable, resilient, and efficient microservices by providing a suite of well-defined APIs and specifications. Its primary goal is to simplify the development for Java developers enabling them to create applications that are optimized for cloud-native development.
+MicroProfile (a.k.a Eclipse MicroProfile) is an open-source specification that facilitates the development of microservices using enterprise Java technologies. It defines a set of APIs and specifications for building modern, scalable, resilient, and efficient applications based on microservices architecture. The primary goal of MicroProfile is to simplify the development process for Java developers, enabling them to create applications optimized for cloud-native development.
 
-Developed by a consortium of industry leaders and Java community members, it extends the capabilities of Java in the cloud computing domain. The founding members included prominent organizations like IBM, Red Hat, Payara, Tomitribe, and others, along with individual contributors from the Java community. This collective approach ensured that MicroProfile was shaped by a diverse set of experiences and requirements, making it robust and versatile. 
+It was developed by a consortium of industry leaders and Java community members, including organizations like IBM, Red Hat, Payara, Tomitribe, and individual contributors. This collaborative approach ensured that MicroProfile was shaped by diverse experiences and requirements, making it robust and versatile specification extending Java in cloud-computing domain. 
 
 ==== Key Specifications
 MicroProfile comprises several specifications that address various aspects of microservices development:
