@@ -39,17 +39,19 @@ Each of these specifications solves specific microservices challenges, such as c
 
 The architecture of MicroProfile is based on the following core principles with the overall goal to to build a lightweight enterprise-grade framework tailored for building cloud-native applications, and enabling developers to easily build and deploy microservices with Java:
 
-. *Simplicity*: MicroProfile APIs are designed to be simple and easy to use. They avoid unnecessary complexity and focus on providing the essential functionality needed for building microservices.
+- *Simplicity*: MicroProfile APIs are designed to be simple and easy to use. They avoid unnecessary complexity and focus on providing the essential functionality needed for building microservices.
 
-. *Modularity*: Its modular approach allows developers to use only what they need, reducing the overhead typically associated with enterprise frameworks.
+- *Modularity*: Its modular approach allows developers to use only what they need, reducing the overhead typically associated with enterprise frameworks.
 
-. *Standards-based*: MicroProfile is based on open standards and specifications. This ensures compatibility and consistency across different implementations.
+- *Standards-based*: MicroProfile is based on open standards and specifications. This ensures compatibility and consistency across different implementations.
 
-. *Community-driven*: It encourages active participation from the Java community for continuous evolution.
+- *Community-driven*: It encourages active participation from the Java community for continuous evolution.
 
-. *Vendor-Neutral*: As an Eclipse Foundation project, MicroProfile is vendor-neutral. It's supported by a range of industry players, ensuring that no single company controls its direction.
+- *Vendor-Neutral*: As an Eclipse Foundation project, MicroProfile is vendor-neutral. It's supported by a range of industry players, ensuring that no single company controls its direction.
 
-. *Focus on Cloud-Native Applications*: The architecture is specifically tailored for cloud environments. It includes features such as externalized configuration, fault tolerance, health checks, and metrics. These features are essential for developing resilient and scalable cloud-native applications. 
+- *Focus on Cloud-Native Applications*: The architecture is specifically tailored for cloud environments. It includes features such as externalized configuration, fault tolerance, health checks, and metrics. These features are essential for developing resilient and scalable cloud-native applications. 
+
+- *Reactive programming*: MicroProfile supports reactive programming, which is a style of programming that is well-suited for building microservices. Reactive applications are responsive and scalable, and they can handle high volumes of concurrent requests.
 
 === Need for MicroProfile
 
