@@ -18,27 +18,38 @@ MicroProfile (a.k.a Eclipse MicroProfile) is an open-source specification that f
 It was developed by a consortium of industry leaders and Java community members, including organizations like IBM, Red Hat, Payara, Tomitribe, and individual contributors. This collaborative approach ensured that MicroProfile was shaped by diverse experiences and requirements, making it robust and versatile specification extending Java in cloud-computing domain. 
 
 ==== Key Specifications
-MicroProfile comprises several specifications that address various aspects of microservices development:
+The table below provides a list of key specifications of MicroProfile along with their descriptions:
 
-- *Config:* Provides externalized configuration management.
-- *Fault Tolerance:* Deals with resilience and stability.
-- *Health Check:* Enables monitoring of microservice health.
-- *Metrics:* Facilitates gathering and exporting of metrics data.
-- *OpenAPI:* Supports creating OpenAPI documents for RESTful APIs.
-- *OpenTracing:* Integrates distributed tracing.
-- *Rest Client:* Simplifies invoking RESTful services.
-- *JWT Propagation:* Manages JSON Web Tokens for secure microservices communication.
+[options="header"]
+|=======================
+|Specification          |Description
+|Config                 |Provides a way for applications to configure themselves dynamically by reading configuration data from various sources.
+|Fault Tolerance        |Implements patterns like Circuit Breaker, Bulkhead, Retry, Timeout, and Fallback to create resilient microservices.
+|JWT Authentication     |Defines a standard for using JSON Web Tokens for authentication and authorization in microservices for secure communication.
+|Metrics                |Enables applications to expose telemetry data to external monitoring systems, providing insights into their performance.
+|Health Check           |Allows applications to signal their health and readiness to perform operations, crucial for automated recovery in cloud environments.
+|OpenAPI                |Facilitates the generation of OpenAPI documentation for RESTful services, making API discovery and understanding easier.
+|OpenTracing            |Integrates distributed tracing into microservices, improving observability and diagnostics in complex architectures.
+|Rest Client            |Defines a type-safe approach to invoke RESTful services over HTTP(S), simplifying the development of HTTP clients.
+|=======================
 
 Each of these specifications solves specific microservices challenges, such as configuration management, fault tolerance, and service monitoring.
 
 === Architecture Philosophy 
 
-The architecture of MicroProfile is based on the following core principles:
-1. Modularity: Its modular approach allows developers to use only what they need, reducing the overhead typically associated with enterprise frameworks.
-2. Standards-based: It ensures compatibility and consistency across different implementations.
-3. Community-driven: It encouraging active participation from the Java community for continuous evolution.
+The architecture of MicroProfile is based on the following core principles with the overall goal to make it easy to build and deploy microservices with Java:
 
-The goal of the project was to build a lightweight enterprise-grade framework tailored for building cloud-native applications. 
+. *Simplicity*: MicroProfile APIs are designed to be simple and easy to use. They avoid unnecessary complexity and focus on providing the essential functionality needed for building microservices.
+
+. *Modularity*: Its modular approach allows developers to use only what they need, reducing the overhead typically associated with enterprise frameworks.
+
+. *Standards-based*: MicroProfile is based on open standards and specifications. This ensures compatibility and consistency across different implementations.
+
+. *Community-driven*: It encourages active participation from the Java community for continuous evolution.
+
+. *Vendor-Neutral*: As an Eclipse Foundation project, MicroProfile is vendor-neutral. It's supported by a range of industry players, ensuring that no single company controls its direction.
+
+. *Focus on Cloud-Native Applications*: The architecture is specifically tailored for cloud environments. It includes features such as externalized configuration, fault tolerance, health checks, and metrics. These features are essential for developing resilient and scalable cloud-native applications. The goal of the project was to build a lightweight enterprise-grade framework tailored for building cloud-native applications.
 
 === Need for MicroProfile
 
