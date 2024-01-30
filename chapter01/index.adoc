@@ -81,17 +81,29 @@ The emergence of microservices architectures has introduced unique challenges fo
 
 === Benefits of MicroProfile
 MicroProfile offers several benefits, making it a compelling choice for developing microservices, especially in Java-centric environments. These benefits include:
+
 - *Optimized for Microservices*: MicroProfile is designed explicitly for creating microservices, offering APIs that cater to the unique challenges of this architectural style.
+
 - *Cloud-Native Focus*: The framework includes features such as externalized configuration, health checks, and metrics, which are essential for building and operating cloud-native applications effectively. MicroProfile is inherently designed for cloud-native applications.
+
 - *Open Source and Standards-Based*: As an open-source framework based on open standards, MicroProfile facilitates interoperability and reduces the risk of vendor lock-in.
+
 - *Enhanced Productivity, Rapid Development and Deployment*: MicroProfile simplifies microservices development with a set of standard APIs. With its focus on simplicity and productivity, MicroProfile helps speed up the development and deployment of microservices by providing essential functionalities and reducing boilerplate code.
+
 - *Community-Driven Innovation*: Being community-driven, MicroProfile evolves quickly, incorporating new trends and best practices in microservices development. MicroProfile is backed by a strong Java community, ensuring continuous improvement and support.
+
 - *Vendor Neutrality*: Being vendor-neutral, MicroProfile is supported by a wide range of industry players, which ensures a broad choice of tools and platforms for developers.
+
 - *Compatibility with Jakarta EE*: MicroProfile is complementary to Jakarta EE, enabling developers to leverage the robustness of Jakarta EE while extending its capabilities to support microservices.
+
 - *Lightweight and Modular*: It provides a lightweight model compared to traditional enterprise Java frameworks. Its modularity allows developers to use only the necessary components, reducing the application's footprint and overhead.
+
 - *Scalability*: The framework supports the development of scalable applications, essential for microservices that handle varying loads efficiently.
+
 - *Enhanced Resilience*: MicroProfile includes specifications for fault tolerance patterns like retries, circuit breakers, timeouts, and bulkheads, which are crucial for building resilient services that can withstand network and service failures.
+
 - *Security Features*: MicroProfile's JWT Authentication provides a standardized way to secure microservices, making it easier to implement authentication and authorization.
+
 - *Ease of Testing*: With its lightweight nature and support for advanced features like Rest Client, MicroProfile simplifies the testing of microservices, both in isolation and in integration scenarios.
 
 === Relationship with Jakarta EE specification 
