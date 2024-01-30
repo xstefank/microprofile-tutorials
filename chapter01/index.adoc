@@ -2,10 +2,7 @@
 
 === Introduction 
 
-This chapter will provide a comprehensive overview of the MicroProfile platform to ensure a deep understanding of its architecture, 
-specifications, and key features. It provides a solid foundation for understanding the MicroProfile platform, 
-its purpose, and its place in the broader context of Java enterprise development. It covers its benefits, 
-its relationship with Jakarta EE, and how it supports cloud-native application development.
+This section will provide a comprehensive overview of the MicroProfile platform to ensure a deep understanding of its architecture, specifications, and critical features. We will start by understanding the fundamentals of the MicroProfile platform, its purpose, and its place in the broader context of Java enterprise development. It covers its benefits, its relationship with Jakarta EE, and how it supports cloud-native application development.
 
 === Topics to be covered:
 - What is MicroProfile 
@@ -16,7 +13,7 @@ its relationship with Jakarta EE, and how it supports cloud-native application d
 
 === What is MicroProifle
 
-MicroProfile is an open-source specification specifically designed for developing microservices based applications in Java. It addresses the challenges and complexities of building scalable, resilient, and efficient microservices by providing a suite of well-defined APIs and specifications. This platform's goal is to simplify the development for Java developers enabling them to create applications that are optimized for cloud-native development.
+MicroProfile is an open-source specification specifically designed for developing microservices using enterprise Java technologies. It addresses the challenges and complexities of building modern, scalable, resilient, and efficient microservices by providing a suite of well-defined APIs and specifications. Its primary goal is to simplify the development for Java developers enabling them to create applications that are optimized for cloud-native development.
 
 Developed by a consortium of industry leaders and Java community members, it extends the capabilities of Java in the cloud computing domain. The founding members included prominent organizations like IBM, Red Hat, Payara, Tomitribe, and others, along with individual contributors from the Java community. This collective approach ensured that MicroProfile was shaped by a diverse set of experiences and requirements, making it robust and versatile. 
 
