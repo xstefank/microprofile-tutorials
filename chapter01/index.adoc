@@ -6,9 +6,9 @@ This section will provide a comprehensive overview of the MicroProfile platform 
 
 == Topics to be covered:
 - What is MicroProfile
+- Need for MicroProfile
 - MicroProfile Specifications
 - Architecture Philosophy
-- Need for MicroProfile
 - Benefits of MicroProfile
 - Relationship with Jakarta EE specification 
 
@@ -17,6 +17,31 @@ This section will provide a comprehensive overview of the MicroProfile platform 
 link:https://microprofile.io/[MicroProfile] (a.k.a Eclipse MicroProfile) is an open-source specification that facilitates the development of microservices using enterprise Java technologies. It defines a set of APIs and specifications for building modern, scalable, resilient, and efficient applications based on microservices architecture. The primary goal of MicroProfile is to simplify the development process for Java developers, enabling them to create applications optimized for cloud-native development.
 
 A consortium of industry leaders and Java community members, including organizations such as IBM, Red Hat, Payara, Tomitribe, and individual contributors collaborating within an open source link:https://www.eclipse.org/org/workinggroups/about.php[Eclipse Foundation Working Group], developed MicroProfile. This collaborative approach ensured that MicroProfile was shaped by diverse experiences and requirements, making it a robust and versatile specification extending Java in cloud-computing domain. 
+
+== Need for MicroProfile
+
+The emergence of microservices architectures has introduced unique challenges for developers. MicroProfile aims to address these challenges by providing a streamlined and optimized set of APIs tailored explicitly for building and deploying microservices-based applications in Java. The MicroProfile Specification was created to cater to the following needs:
+
+- *Microservices Architecture Adoption*: As the industry shifted towards microservices architecture for its flexibility, scalability, and speed of deployment, there was a growing need for a standard framework tailored to this architectural style, especially in the Java ecosystem.
+
+- *Limitations of Traditional Enterprise Java*: Traditional enterprise Java frameworks, like Java EE (now Jakarta EE), were often seen as too monolithic and heavyweight for microservices. This led to a demand for a more streamlined and microservices-focused framework.
+
+- *Cloud-Native Application Development*: The rise of cloud-native applications required features like external configuration, health checks, and fault tolerance. Existing Java standards did not adequately address these.
+
+- *Community-Driven Innovation*: The Java community saw the need for a platform where they could collaboratively develop and innovate rapidly to keep up with the fast-paced changes in technology and microservice's best practices.
+
+- *Vendor Neutrality and Interoperability*: There was a need for a vendor-neutral framework that could provide standardization across different implementations and environments, ensuring compatibility and avoiding vendor lock-in.
+
+- *Focus on Simplicity and Productivity*: Developers needed a simple and easy-to-understand framework that increased productivity by reducing boilerplate code and focusing on essential microservice functionalities. Well-defined standards and patterns eliminate the need to reinvent the wheel, allowing developers to focus on microservices logic.
+
+- *Integration with Existing Java Ecosystems*: It was crucial to have a framework that could integrate smoothly with existing Java ecosystems like Jakarta EE, leveraging the strengths of these platforms while extending their capabilities to support microservices.
+
+- *Emphasis on Lightweight and Resilient Services*: With the microservices architecture, there's a need for frameworks that support the development of lightweight, resilient, and independently deployable services, which are essential for microservices.
+
+- *Rapid Adaptation to New Trends*: The technology landscape, especially around microservices, is constantly evolving. A framework like MicroProfile, which is community-driven and rapidly evolving, can adapt quickly to these changes, continually incorporating new practices and technologies.
+
+- *Enhanced Observability and Monitoring*: Microservices architectures complicate application monitoring and observability. A framework with built-in support for these capabilities simplifies the management of distributed services.
+
 
 == MicroProfile Specifications
 MicroProfile specifications are indeed divided into two main categories: Platfrom and Standalone.
@@ -55,10 +80,8 @@ Standalone specifications address more specific or advanced needs that may not b
 | link:https://microprofile.io/specifications/microprofile-reactive-messaging/[Reactive Messaging]| Aims to facilitate building applications that communicate via reactive streams, enabling the development of event-driven, responsive, and resilient microservices.
 | link:https://microprofile.io/specifications/microprofile-reactive-streams-operators/[Reactive Streams Operators]| Provides a way to process streams of data in a reactive manner, allowing for non-blocking system design and improving the efficiency of data processing in microservices.
 | link:https://microprofile.io/specifications/microprofile-opentracing/[Open Tracing]|  Integrates distributed tracing by defining a way for services to trace requests across service boundaries, improving observability.
-
 |=======================
 These specifications were once part of official MicroProfile umbrella but have now been moved out.They are no longer formally recognized by the MicroProfile community and might not receive the same level of support or updates. 
-
 
 == Architecture Philosophy 
 
@@ -74,36 +97,11 @@ The overall goal of MicroProfile architecture is to provide a lightweight enterp
 
 - *Vendor-Neutral*: As an Eclipse Foundation project, MicroProfile is vendor-neutral. It's supported by several industry players, ensuring that no single company controls its direction.
 
-- *Focus on Cloud-Native Applications*: The architecture is specifically tailored for cloud environments. It includes features such as externalized configuration, fault tolerance, health checks, and metrics. These features are essential for developing resilient and scalable cloud-native applications. 
+- *Focus on Cloud-Native Applications*: The architecture is specifically tailored for cloud environments. MicroProfile integrates with a number of cloud-native technologies, such as Kubernetes and Istio. This makes it easy to deploy and manage MicroProfile applications in cloud environments.
 
 - *Reactive programming*: MicroProfile supports reactive programming, which is a style of programming that is well-suited for building microservices. Reactive applications are responsive and scalable, and they can handle high volumes of concurrent requests.
 
 image::../images/figure1-1.png[Figure 1-1]
-
-== Need for MicroProfile
-
-The emergence of microservices architectures has introduced unique challenges for developers. MicroProfile aims to address these challenges by providing a streamlined and optimized set of APIs APIs tailored explicitly for building and deploying microservices-based applications in Java:
-
-- *Microservices Architecture Adoption*: As the industry shifted towards microservices architecture for its flexibility, scalability, and speed of deployment, there was a growing need for a standard framework tailored to this architectural style, especially in the Java ecosystem.
-
-- *Limitations of Traditional Enterprise Java*: Traditional enterprise Java frameworks, like Java EE (now Jakarta EE), were often seen as too monolithic and heavyweight for microservices. This led to a demand for a more streamlined and microservices-focused framework.
-
-- *Cloud-Native Application Development*: The rise of cloud-native applications required features like external configuration, health checks, and fault tolerance. Existing Java standards did not adequately address these.
-
-- *Community-Driven Innovation*: The Java community saw the need for a platform where they could collaboratively develop and innovate rapidly to keep up with the fast-paced changes in technology and microservice's best practices.
-
-- *Vendor Neutrality and Interoperability*: There was a need for a vendor-neutral framework that could provide standardization across different implementations and environments, ensuring compatibility and avoiding vendor lock-in.
-
-- *Focus on Simplicity and Productivity*: Developers needed a simple and easy-to-understand framework that increased productivity by reducing boilerplate code and focusing on essential microservice functionalities. Well-defined standards and patterns eliminate the need to reinvent the wheel, allowing developers to focus on microservices logic.
-
-- *Integration with Existing Java Ecosystems*: It was crucial to have a framework that could integrate smoothly with existing Java ecosystems like Jakarta EE, leveraging the strengths of these platforms while extending their capabilities to support microservices.
-
-- *Emphasis on Lightweight and Resilient Services*: With the microservices architecture, there's a need for frameworks that support the development of lightweight, resilient, and independently deployable services, which are essential for microservices.
-
-- *Rapid Adaptation to New Trends*: The technology landscape, especially around microservices, is constantly evolving. A framework like MicroProfile, which is community-driven and rapidly evolving, can adapt quickly to these changes, continually incorporating new practices and technologies.
-
-- *Enhanced Observability and Monitoring*: Microservices architectures complicate application monitoring and observability. A framework with built-in support for these capabilities simplifies the management of distributed services.
-
 === Benefits of MicroProfile
 MicroProfile offers several benefits, making it a compelling choice for developing microservices, especially in Java-centric environments. These benefits include:
 
