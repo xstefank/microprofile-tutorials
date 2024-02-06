@@ -8,6 +8,7 @@ This section will provide a comprehensive overview of the MicroProfile platform 
 - What is MicroProfile
 - Need for MicroProfile
 - MicroProfile Specifications
+- Current MicroProfile Implementations
 - Architecture Philosophy
 - Benefits of MicroProfile
 - Relationship with Jakarta EE specification 
@@ -42,14 +43,11 @@ The emergence of microservices architectures has introduced unique challenges fo
 
 - *Enhanced Observability and Monitoring*: Microservices architectures complicate application monitoring and observability. A framework with built-in support for these capabilities simplifies the management of distributed services.
 
-
 == MicroProfile Specifications
 MicroProfile specifications are indeed divided into two main categories: Platfrom and Standalone.
 
 === Platfrom Specifications
-The MicroProfile Platform Specification is a set of specifications that defines lightweight APIs enabling developers to build resilient, scalable, and easily deployable microservices. These are the essential specifications that form the foundation of the MicroProfile platform.
-
-The table below provides a list of platform specifications of MicroProfile along with their descriptions:
+The MicroProfile Platform Specification is the core set of MicroProfile specifications designed to provide the foundational functionalities needed for microservices development. The table below provides a list of platform specifications of MicroProfile along with their descriptions:
 
 [options="header"]
 |=======================
@@ -69,7 +67,7 @@ These specifications solve specific microservices challenges, such as configurat
 
 === Standalone (Outside Umbrella) Specifications 
 
-Standalone specifications address more specific or advanced needs that may not be required by every microservices application. They allow for innovation and experimentation in areas that are evolving or where there's a need to address niche concerns without burdening the core platform with additional complexity.
+Standalone specifications address more specific or advanced needs that may not be required by every microservices application. They allow for innovation and experimentation in areas that are evolving or where there's a need to address niche concerns without burdening the core platform with additional complexity. The table below provides a list of standalone specifications of MicroProfile along with their descriptions:
 
 [options="header"]
 |=======================
@@ -82,6 +80,16 @@ Standalone specifications address more specific or advanced needs that may not b
 | link:https://microprofile.io/specifications/microprofile-opentracing/[Open Tracing]|  Integrates distributed tracing by defining a way for services to trace requests across service boundaries, improving observability.
 |=======================
 These specifications were once part of official MicroProfile umbrella but have now been moved out.They are no longer formally recognized by the MicroProfile community and might not receive the same level of support or updates. 
+
+== Current MicroProfile Implementations
+Below is the list of MicroProfile Implementations, each offering a platform for building and running microservices-based applications:
+- Payara Micro
+- Apache TomEE
+- Open Liberty
+- Launcher
+- KumuluzEE
+- Quarkus
+- WildFly
 
 == Architecture Philosophy 
 
@@ -155,3 +163,40 @@ In this section, we explored the MicroProfile platform in detail, laying the fou
 * **Fault Tolerance**: The ability of a system to continue operating properly in the event of the failure of some of its components, critical for maintaining high availability and reliability in microservices architectures.
 
 * **Vendor Neutrality**: The principle of designing software products and standards that are not controlled by any single vendor, promoting interoperability and choice for users.
+
+* **Interoperability**: The ability of computer systems or software to exchange and make use of information across different platforms and services.
+
+* **Boilerplate Code**: A piece of code that must be included in many places with little or no alteration.
+
+* **Lightweight Services**: Services designed to consume minimal computing resources, enhancing performance and efficiency, particularly relevant in a microservices architecture.
+
+* **Resilient Services**: Services built to recover quickly from failures and continue operating, critical for maintaining the reliability of microservices-based applications.
+
+* **Observability**: The ability to measure the internal state of a system by examining its outputs, crucial for understanding the performance and behavior of microservices.
+
+* **Monitoring**: The practice of tracking and logging the performance and status of applications and infrastructure, essential for maintaining system health in microservices environments.
+
+* **Circuit Breaker**: A fault tolerance mechanism that prevents a failure in one service from causing system-wide failure, by temporarily disabling failing services.
+
+* **Bulkhead A pattern that isolates failures in one part of a system from the others, ensuring that parts of an application can continue functioning despite issues elsewhere.
+
+* **Retry**: A simple fault tolerance mechanism where an operation is attempted again if it fails initially, based on predefined criteria.
+
+* **Timeout**: A mechanism to limit the time waiting for a response from a service, helping to avoid resource deadlock situations in distributed systems.
+
+* **Fallback**: A fault tolerance mechanism that provides an alternative solution or response when a primary method fails.
+
+* **Role-Based Access Control (RBAC)**: A method of restricting system access to authorized users based on their roles within an organization.
+
+* **Kubernetes**: An open-source platform for automating deployment, scaling, and operations of application containers across clusters of hosts.
+
+* **Istio**: An open platform to connect, manage, and secure microservices, providing an easy way to create a network of deployed services with load balancing, service-to-service authentication, and monitoring.
+
+* **Reactive Programming**: - A programming paradigm oriented around data flows and the propagation of change, enabling the development of responsive and resilient systems.
+
+* **Distributed Tracing**: A method for monitoring applications, especially those built using a microservices architecture, by tracking the flow of requests and responses across services.
+
+* **Long Running Actions (LRA)**: A model for managing long-duration, distributed transactions across microservices without locking resources.
+
+* **Reactive Streams**: An initiative to provide a standard for asynchronous stream processing with non-blocking back pressure.
+
