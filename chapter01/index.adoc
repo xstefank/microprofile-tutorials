@@ -83,13 +83,14 @@ These specifications were once part of official MicroProfile umbrella but have n
 
 == Current MicroProfile Implementations
 Below is the list of MicroProfile Implementations, each offering a platform for building and running microservices-based applications:
-- Payara Micro
-- Apache TomEE
-- Open Liberty
-- Launcher
-- KumuluzEE
-- Quarkus
-- WildFly
+
+- link:https://www.payara.fish/products/payara-micro/[Payara Micro^]
+- link:https://tomee.apache.org/[Apache TomEE^]
+- link:https://openliberty.io/[Open Liberty^]
+- link:https://github.com/fujitsu/launcher[Launcher^]
+- link:https://kumuluz.com/[KumuluzEE^]
+- link:https://quarkus.io/[Quarkus^]
+- link:https://www.wildfly.org/[WildFly^]
 
 == Architecture Philosophy 
 
