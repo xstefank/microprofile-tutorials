@@ -179,7 +179,7 @@ In this section, we explored the MicroProfile platform in detail, laying the fou
 
 * **Circuit Breaker**: A fault tolerance mechanism that prevents a failure in one service from causing system-wide failure, by temporarily disabling failing services.
 
-* **Bulkhead A pattern that isolates failures in one part of a system from the others, ensuring that parts of an application can continue functioning despite issues elsewhere.
+* **Bulkhead**: A pattern that isolates failures in one part of a system from the others, ensuring that parts of an application can continue functioning despite issues elsewhere.
 
 * **Retry**: A simple fault tolerance mechanism where an operation is attempted again if it fails initially, based on predefined criteria.
 
