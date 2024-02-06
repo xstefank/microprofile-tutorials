@@ -16,7 +16,9 @@ link:https://microprofile.io/[MicroProfile] (a.k.a Eclipse MicroProfile) is an o
 
 A consortium of industry leaders and Java community members, including organizations such as IBM, Red Hat, Payara, Tomitribe, and individual contributors collaborating within an open source link:https://www.eclipse.org/org/workinggroups/about.php[Eclipse Foundation Working Group], developed MicroProfile. This collaborative approach ensured that MicroProfile was shaped by diverse experiences and requirements, making it a robust and versatile specification extending Java in cloud-computing domain. 
 
-==== Key Specifications
+=== MicroProfile Specification
+==== Core Specifications
+
 The table below provides a list of key specifications of MicroProfile along with their descriptions:
 
 [options="header"]
@@ -34,6 +36,21 @@ The table below provides a list of key specifications of MicroProfile along with
 |=======================
 
 These specifications solve specific microservices challenges, such as configuration management, fault tolerance, and service monitoring. 
+
+==== Outside Umbrella (Standalone) Specification
+
+[options="header"]
+|=======================
+|Specification          |Description
+|MicroProfile Context Propagation | Defines a way to propagate context between threads and managed executor services, ensuring that the context is consistent during the execution of asynchronous tasks or across different services.
+|MicroProfile GraphQL |Provides a layer on top of Jakarta EE that allows the creation of GraphQL services. This specification makes it easier to build APIs that allow clients to request exactly the data they need and nothing more.
+|MicroProfile Long Running Actions (LRA)| Focuses on providing a model for developing services that participate in long-running processes, ensuring consistency and reliability without necessarily locking data.
+|MicroProfile Reactive Messaging| Aims to facilitate building applications that communicate via reactive streams, enabling the development of event-driven, responsive, and resilient microservices.
+|MicroProfile Reactive Streams Operators| Provides a way to process streams of data in a reactive manner, allowing for non-blocking system design and improving the efficiency of data processing in microservices.
+|MicroProfile OpenTracing|  Integrates distributed tracing by defining a way for services to trace requests across service boundaries, improving observability.
+
+|=======================
+These specifications were once part of official MicroProfile umbrella but have now been moved out.They are no longer formally recognized by the MicroProfile community and might not receive the same level of support or updates. 
 
 ==== Architecture Philosophy 
 
