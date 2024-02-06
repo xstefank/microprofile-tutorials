@@ -12,9 +12,9 @@ This section will provide a comprehensive overview of the MicroProfile platform 
 
 === What is MicroProifle
 
-MicroProfile (a.k.a Eclipse MicroProfile) is an open-source specification that facilitates the development of microservices using enterprise Java technologies. It defines a set of APIs and specifications for building modern, scalable, resilient, and efficient applications based on microservices architecture. The primary goal of MicroProfile is to simplify the development process for Java developers, enabling them to create applications optimized for cloud-native development.
+link:https://microprofile.io/[MicroProfile] (a.k.a Eclipse MicroProfile) is an open-source specification that facilitates the development of microservices using enterprise Java technologies. It defines a set of APIs and specifications for building modern, scalable, resilient, and efficient applications based on microservices architecture. The primary goal of MicroProfile is to simplify the development process for Java developers, enabling them to create applications optimized for cloud-native development.
 
-A consortium of industry leaders and Java community members, including organizations such as IBM, Red Hat, Payara, Tomitribe, and individual contributors, developed MicroProfile. This collaborative approach ensured that MicroProfile was shaped by diverse experiences and requirements, making it a robust and versatile specification extending Java in cloud-computing domain. 
+A consortium of industry leaders and Java community members, including organizations such as IBM, Red Hat, Payara, Tomitribe, and individual contributors collaborating within an open source link:https://www.eclipse.org/org/workinggroups/about.php[Eclipse Foundation Working Group], developed MicroProfile. This collaborative approach ensured that MicroProfile was shaped by diverse experiences and requirements, making it a robust and versatile specification extending Java in cloud-computing domain. 
 
 ==== Key Specifications
 The table below provides a list of key specifications of MicroProfile along with their descriptions:
