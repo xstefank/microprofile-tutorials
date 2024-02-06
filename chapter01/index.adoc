@@ -132,4 +132,17 @@ MicroProfile offers several benefits, making it a compelling choice for developi
 While Jakarta EE is the broader umbrella under which everything under enterprise Java now falls, MicroProfile specializes in microservices. MicroProfile is not a replacement but rather a supplement to Jakarta EE (formerly Java EE), focusing on microservices-specific features. The two are complementary, with MicroProfile building on the Jakarta EE standards and adding additional capabilities required for microservices architectures. This synergy allows developers to leverage the robustness of Jakarta EE while utilizing MicroProfile for microservices-specific features.
 
 === Conclusion
-In this section, we explored the MicroProfile platform in detail, laying the foundation for understanding how it revolutionizes the development of microservices using Java. We started by defining MicroProfile, emphasizing its role as an open-source specification tailored for microservices development. Key contributions from industry leaders and community members have positioned MicroProfile as a pivotal technology in the Java ecosystem, especially for cloud-native application development. We delved into the essential specifications of MicroProfile, each playing a critical role in addressing specific challenges in microservices development, from configuration management to service resilience. As we move forward in this tutorial, we will delve deeper into each specification and discover how to effectively implement MicroProfile in real-world Java applications. 
+In this section, we explored the MicroProfile platform in detail, laying the foundation for understanding how it revolutionizes the development of microservices using Java. We started by defining MicroProfile, emphasizing its role as an open-source specification tailored for microservices development. Key contributions from industry leaders and community members have positioned MicroProfile as a pivotal technology in the Java ecosystem, especially for cloud-native application development. We delved into the essential specifications of MicroProfile, each playing a critical role in addressing specific challenges in microservices development, from configuration management to service resilience. As we move forward in this tutorial, we will delve deeper into each specification and discover how to effectively implement MicroProfile in real-world Java applications.
+
+== Glossary
+
+[[glossary]]
+* **Microservices:** An architectural style for building applications as a collection of small, independent services. Each service focuses on a specific business capability and communicates with other services through well-defined APIs.
+
+* **APIs (Application Programming Interfaces):** A set of definitions and protocols that specify how software components interact with each other. MicroProfile defines a set of APIs specifically designed for microservices development.
+
+* **Cloud-native development:** An approach to building and running applications that are specifically designed for the cloud environment. This involves using technologies and practices that leverage the benefits of cloud platforms such as scalability, elasticity, and pay-as-you-go pricing.
+
+* **Eclipse Foundation Working Group:** A collaborative group of industry leaders and Java community members, including organizations like IBM, Red Hat, Payara, Tomitribe, who actively contribute to the development and evolution of MicroProfile within the Eclipse Foundation framework.
+
+
