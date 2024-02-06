@@ -146,4 +146,12 @@ In this section, we explored the MicroProfile platform in detail, laying the fou
 
 * **Eclipse Foundation Working Group**: A collaborative group of industry leaders and Java community members, including organizations like IBM, Red Hat, Payara, Tomitribe, who actively contribute to the development and evolution of MicroProfile within the Eclipse Foundation framework.
 
+* **Jakarta EE**: Jakarta EE (formerly Java Platform, Enterprise Edition or Java EE) is a set of specifications, extending Java Platform, Standard Edition or Java SE with specifications for enterprise features such as web services, database persistence, asynchronous messaging and more.
 
+* **External Configuration**: A technique in application development where configuration data is separated from the application code, allowing the application's behavior to be adjusted without changing the code, especially useful in cloud-native and microservices architectures.
+
+* **Health Checks**: Mechanisms used in microservices architectures to continuously check the status of an application or service to ensure it is functioning correctly and available to users.
+
+* **Fault Tolerance**: The ability of a system to continue operating properly in the event of the failure of some of its components, critical for maintaining high availability and reliability in microservices architectures.
+
+* **Vendor Neutrality**: The principle of designing software products and standards that are not controlled by any single vendor, promoting interoperability and choice for users.
